@@ -34,7 +34,7 @@ export default function Charts({
               outerRadius={85}
               dataKey="value"
             >
-              {data.map((entry, index) => (
+              {data.map((_, index) => (
                 <Cell key={index} fill={COLORS[index]} />
               ))}
             </Pie>

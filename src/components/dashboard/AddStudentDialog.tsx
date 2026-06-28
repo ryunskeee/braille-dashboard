@@ -44,10 +44,8 @@ export default function AddStudentDialog({
 
   return (
     <Dialog>
-      <DialogTrigger asChild>
-        <Button>
+      <DialogTrigger>
           ＋ 学習者を追加
-        </Button>
       </DialogTrigger>
 
       <DialogContent>

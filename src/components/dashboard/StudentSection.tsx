@@ -1,4 +1,3 @@
-import { useState } from "react";
 import StudentItem from "./StudentItem";
 import SearchBar from "./SearchBar";
 
